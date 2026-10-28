@@ -1,0 +1,20 @@
+# Python geçici dosyaları
+__pycache__/
+*.py[cod]
+
+# Sanal ortamlar
+venv/
+.venv/
+env/
+
+# Gizli bilgiler
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# VS Code yerel ayarları
+.vscode/
+
+# Python test önbelleği
+.pytest_cache/
